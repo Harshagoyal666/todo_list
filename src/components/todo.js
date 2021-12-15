@@ -3,7 +3,6 @@ import {useSelector, useDispatch } from 'react-redux';
 import Button from 'react-bootstrap/Button';
 import { InputGroup } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {addTodo,deleteTodo,removeTodo} from "../actions/index"
 import "./todo.css";
 const Todo = () => {
