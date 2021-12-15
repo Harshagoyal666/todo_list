@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,500');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+body {
+	font-family: Roboto;
+	background: #f7fce5; /* fallback for old browsers */
+	
+}
+
+h1 {
+	background: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+.mb-3 {
+  margin-bottom: .4rem !important;
+}
+.btn-primary {
+  background-color:#2980b9;
+  padding: 5px 10px;
+  position: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  border-color: #c5ad24;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+span {
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+InputGroup {
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 20px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+InputGroup:focus{
+	background: white;
+	border: 3px solid #2980b9;
+	outline: none;
+  margin-bottom:.4rem;
+}
+
+.fa-plus {
+	float: right;
+}
+
+#container {
+	width: 360px;
+	margin: 100px auto;
+	background: #f1e9e9;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1)
+}
