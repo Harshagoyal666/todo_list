@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {useSelector, useDispatch } from 'react-redux';
-import Button from 'react-bootstrap/Button';
+import {Button} from 'react-bootstrap-buttons';
 import { InputGroup } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap';
 import {addTodo,deleteTodo,removeTodo} from "../actions/index"
